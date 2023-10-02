@@ -12,7 +12,7 @@ import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.jpg";
 const about: Array<AbouttType> = [
   {
     icon: <WrenchScrewdriverIcon className="h-6 w-6" />,
-    title: "Right materials for the job",
+    title: "Guidance and Sourcing",
     description: "Our experts provide guidance on the right materials needed for each project and can assist in sourcing them for you. We also understand that every client has unique needs, which is why we are always willing to follow your lead and tailor to your specific requirements. ",
   },
   {
@@ -23,7 +23,7 @@ const about: Array<AbouttType> = [
   {
     icon: <UserIcon className="h-6 w-6" />,
     title: "World Class Leadman",
-    description: "Herlindo himself, with 30+ years of experience in this industry, will be your go-to leadman. He is dedicated to seeing your project through from start to finish, ensuring that every detail is taken care of. From the moment you request your quote to the final touches, Herlindo will be there every step of the way.",
+    description: "Herlindo himself with 30+ years of experience in this industry will be your go-to leadman, he is dedicated to seeing your project through from start to finish, ensuring that every detail is taken care of. From the moment you request your quote to the final touches, Herlindo will be there every step of the way.",
   },
 ];
 
