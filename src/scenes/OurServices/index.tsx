@@ -69,7 +69,7 @@ const ServicesOffered = ({ setSelectedPage }: Props) => {
                 We offer commercial and residential service, exterior and interior. We also work with insurance.
             </p>
             <p>
-                List of Services: Painting - Granite - Ceramic Tile - Cabinets - SheetRock Repair - Exterior & Interior Carpentry - Complete Bath & Kitchen Remodeling - Roof - Siding - Addition Services - Light Plumber - Electricity - Wood Floor - Pressure Washing -Laminate - Landscaping , And Much More.
+                List of Services: Roofing - Carpentry - Complete Bath & Kitchen Remodeling - Ceramic Tile - Painting - Granite - Cabinets - SheetRock Repair - Siding - Addition Services - Light Plumber - Electricity - Wood Floor - Pressure Washing -Laminate - Landscaping , And Much More.
             </p>
 
         </motion.div>
