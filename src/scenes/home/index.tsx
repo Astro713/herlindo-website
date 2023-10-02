@@ -51,7 +51,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 At Herlindo Painting & Roofing, we pride ourselves in providing exceptional services to Houston and its surrounding areas. We specialize in providing complete remodeling services; interior & exterior, as well as roofing.
                 </p>
                 <p className='mt-8 text-md'>
-                  Start Now: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a>
+                  Start Now: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963 (Text + Call)</a>
                 </p>
 
             </motion.div >
