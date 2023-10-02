@@ -76,7 +76,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                 href={`#${SelectedPage.ContactUs}`}
               >
-                <p>Click Here For Quote</p>
+                <p>Click Here For More Info</p>
               </AnchorLink>
             </motion.div>
         </div>

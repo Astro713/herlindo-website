@@ -46,7 +46,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">GET YOUR FREE</span> QUOTE TODAY!
           </HText>
           <p className="my-5">
-            To receive a quote as quickly as possible, give us a call at <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a> or send an email to <a href="mailto:herlindo713@yahoo.com" style={{textDecoration: 'underline', color: 'blue'}}>herlindo713@yahoo.com</a>.
+            To receive a quote as quickly as possible, give us a call or text at <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a> or send an email to <a href="mailto:herlindo713@yahoo.com" style={{textDecoration: 'underline', color: 'blue'}}>herlindo713@yahoo.com</a>.
           </p>
           <p className="my-5">
             You can also share your details with us, all you need to do is drop us a message outlining what you'd like to accomplish, we'll take care of the rest and be in touch soon!
