@@ -51,7 +51,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                         </div>
                         <div className={`${flexBetween} gap-8`}>
                         <div className={`${flexBetween} gap-8`}>
-                        <p>Phone Number: <span style={{textDecoration: 'underline', color: 'blue'}}>(281)660-5963</span></p>
+                        <p>Phone Number: <span style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</span></p>
                         </div>
                         </div>
                     </div>
