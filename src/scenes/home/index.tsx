@@ -48,10 +48,13 @@ const Home = ({ setSelectedPage }: Props) => {
                 </div>
 
                 <p className='mt-8 text-md'>
-                At Herlindo Painting & Roofing, we pride ourselves in providing exceptional services to Houston and its surrounding areas. We specialize in providing complete remodeling services; interior & exterior, as well as roofing.
+                Herlindo Painting & Roofing provides services to Houston and its surrounding areas.
                 </p>
                 <p className='mt-8 text-md'>
-                  Start Now: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a> (Text + Call)
+                 We specialize in providing complete interior and exterior remodeling services, as well as roofing.
+                </p>
+                <p className='mt-8 text-md'>
+                  Call + Text: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a>
                 </p>
 
             </motion.div >
@@ -76,7 +79,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                 href={`#${SelectedPage.ContactUs}`}
               >
-                <p>Click Here For More Info</p>
+                <p>Quote Info</p>
               </AnchorLink>
             </motion.div>
         </div>
