@@ -32,8 +32,8 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
       <ServicesOffered setSelectedPage={setSelectedPage} />
-      <About setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
+      <About setSelectedPage={setSelectedPage} />
       <Footer />
     </div>
   );
