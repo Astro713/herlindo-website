@@ -66,8 +66,9 @@ const ServicesOffered = ({ setSelectedPage }: Props) => {
                 <HText>Our Offered Services</HText>
             </div>
             <ul className='list-disc mt-4'>
-                <li>Roofing, Siding, Doors, and Windows</li>
                 <li>Complete Bath & Kitchen Remodeling</li>
+                <li>Roofing, Siding, Doors, and Windows</li>
+                <li>Fencing, Deck, and Concrete Work</li>
                 <li>Ceramic Tile, WoodFloor, and Laminate </li>
                 <li>Carpentry, Cabinets, and Granite</li>
                 <li>Sheetrock repair & painting</li>
