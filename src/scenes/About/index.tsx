@@ -7,7 +7,7 @@ import {
  } from "@heroicons/react/24/solid";
  import { motion } from "framer-motion";
 import Aboutt from "./Aboutt";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.jpg";
+import HomePageGraphic from "@/assets/HomePageGraphic.mp4";
 
 const about: Array<AbouttType> = [
   {
@@ -87,11 +87,9 @@ const About = ({ setSelectedPage }: Props) => {
         {/* Graphics and Description */}
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
           {/* Graphic */}
-          <img
-            className="my-5 mx-auto"
-            alt="benefits-page-graphic"
-            src={BenefitsPageGraphic}
-          />
+          <video autoPlay loop muted className="mb-6 md:mb-0" >
+            <source src={HomePageGraphic} type="video/mp4" />
+          </video>
 
           {/* Description */}
           <div>

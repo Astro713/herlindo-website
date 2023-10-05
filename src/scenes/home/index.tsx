@@ -2,13 +2,12 @@ import useMediaQuery from '@/hooks/useMediaQuery';
 // import ActionButton from '@/shared/ActionButton';
 import { SelectedPage } from '@/shared/types'
 import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.mp4";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import SponsorRedBulll from "@/assets/SponsorRedBulll.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import { motion } from "framer-motion";
-
+import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.jpg";
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -48,13 +47,13 @@ const Home = ({ setSelectedPage }: Props) => {
                 </div>
 
                 <p className='mt-8 text-md'>
-                Herlindo Painting & Roofing provides services to Houston and its surrounding areas.
+                At Herlindo Painting & Roofing We specialize in complete interior and exterior remodeling services, as well as roofing.
                 </p>
-                <p className='mt-8 text-md'>
-                 We specialize in providing complete interior and exterior remodeling services, as well as roofing.
+                <p className='mt-2'>
+                 We provide service to Houston and surrounding areas; both residential and commercial.
                 </p>
-                <p className='mt-8 text-md'>
-                  Call + Text: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a>
+                <p className='mt-2 text-md'>
+                  Call & Text: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a>
                 </p>
 
             </motion.div >
@@ -79,7 +78,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                 href={`#${SelectedPage.ContactUs}`}
               >
-                <p>Quote Info</p>
+                <p>Click Here For Quote Info</p>
               </AnchorLink>
             </motion.div>
         </div>
@@ -89,9 +88,11 @@ const Home = ({ setSelectedPage }: Props) => {
           className="flex basis-3/5 justify-center md:z-10
               md:ml-40 md:mt-16 md:justify-items-end"
         >
-          <video autoPlay loop muted >
-            <source src={HomePageGraphic} type="video/mp4" />
-          </video>
+          <img
+            className="my-5 mx-auto"
+            alt="benefits-page-graphic"
+            src={BenefitsPageGraphic}
+          />
         </div>
     </motion.div>
 

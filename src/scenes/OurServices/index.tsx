@@ -47,7 +47,7 @@ type Props = {
 };
 
 const ServicesOffered = ({ setSelectedPage }: Props) => {
-  return <section id="servicesoffered" className='w-full bg-primary-100 py-40'>
+  return <section id="servicesoffered" className='w-full bg-primary-100 py-20'>
     <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ServicesOffered)}
     >
@@ -63,13 +63,20 @@ const ServicesOffered = ({ setSelectedPage }: Props) => {
         }}
         >
             <div className='md:w-3/5'>
-                <HText>Services Offered</HText>
+                <HText>Our Offered Services</HText>
             </div>
-            <p className='py-5'>
-                We offer commercial and residential service, exterior and interior. We also work with insurance.
-            </p>
-            <p>
-                List of Services: Roofing - Carpentry - Complete Bath & Kitchen Remodeling - Ceramic Tile - Painting - Granite - Cabinets - SheetRock Repair - Siding - Addition Services - Light Plumber - Electricity - Wood Floor - Pressure Washing -Laminate - Landscaping , And Much More.
+            <ul className='list-disc mt-4'>
+                <li>Roofing, Siding, Doors, and Windows</li>
+                <li>Complete Bath & Kitchen Remodeling</li>
+                <li>Ceramic Tile, WoodFloor, and Laminate </li>
+                <li>Carpentry, Cabinets, and Granite</li>
+                <li>Sheetrock repair & painting</li>
+                <li>Pressure Washing & Landscaping</li>
+                <li>Addition Service</li>
+                <li>And Much More.</li>
+            </ul>
+            <p className='mt-6'>
+                Note: We work with insurance.
             </p>
 
         </motion.div>
