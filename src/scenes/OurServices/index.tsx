@@ -47,7 +47,7 @@ type Props = {
 };
 
 const ServicesOffered = ({ setSelectedPage }: Props) => {
-  return <section id="servicesoffered" className='w-full bg-primary-100 py-20'>
+  return <section id="servicesoffered" className='w-full bg-gray-20 py-20'>
     <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ServicesOffered)}
     >
@@ -62,23 +62,27 @@ const ServicesOffered = ({ setSelectedPage }: Props) => {
           visible: { opacity: 1, x: 0 },
         }}
         >
-            <div className='md:w-3/5'>
+            <div className='text-primary-500 md:w-3/5 mb-4'>
                 <HText>Our Offered Services</HText>
             </div>
-            <ul className='list-disc mt-4'>
-                <li>Complete Bath & Kitchen Remodeling</li>
-                <li>Roofing, Siding, Doors, and Windows</li>
-                <li>Fencing, Deck, and Concrete Work</li>
-                <li>Ceramic Tile, WoodFloor, and Laminate </li>
-                <li>Carpentry, Cabinets, and Granite</li>
-                <li>Sheetrock repair & painting</li>
-                <li>Pressure Washing & Landscaping</li>
-                <li>Addition Service</li>
-                <li>And Much More.</li>
-            </ul>
-            <p className='mt-6'>
-                Note: We work with insurance.
+            <div className="text-black text-left pt">
+            <div className="space-y-4">
+                <div className=" p-2 rounded shadow">Luxurious Bath & Kitchen Transformations</div>
+                <div className=" p-2 rounded shadow">Expert Roofing, Siding, Door, and Window Installations</div>
+                <div className=" p-2 rounded shadow">Custom Fencing, Deck Building, and Concrete Solutions</div>
+                <div className=" p-2 rounded shadow">Elegant Ceramic, Wood, and Laminate Flooring</div>
+                <div className=" p-2 rounded shadow">Precision Carpentry, Premium Cabinets, and Granite Countertops</div>
+                <div className=" p-2 rounded shadow">Professional Sheetrock Repair and Painting Services</div>
+                <div className=" p-2 rounded shadow">Thorough Pressure Washing and Landscaping</div>
+                <div className=" p-2 rounded shadow">Tailored Home Additions and Extensions</div>
+                <div className=" p-2 rounded shadow">Comprehensive Services for Every Home Need</div>
+            </div>
+            <p className="mt-6">
+                <strong>Note:</strong> We collaborate with insurance companies to streamline your project.
             </p>
+            </div>
+
+
 
         </motion.div>
         <div className='mt-10 h-[354px] w-full overflow-x-auto overflow-y-hidden'>

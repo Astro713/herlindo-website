@@ -13,17 +13,17 @@ const about: Array<AbouttType> = [
   {
     icon: <WrenchScrewdriverIcon className="h-6 w-6" />,
     title: "Guidance and Sourcing",
-    description: "Our experts provide guidance on the right materials needed for each project and can assist in sourcing them for you. We also understand that every client has unique needs, which is why we are always willing to follow your lead and tailor to your specific requirements. ",
+    description: "Our experts specialize in material guidance and sourcing, customizing our services to meet your exact needs.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "Diverse Professionals On Demand",
-    description: "Our team consists of diverse professionals who are readily available to meet all your needs, including roofing, exterior/interior remodeling, electrical work, cement and more. With loyal teams that have been with us for over 10 years, there's no need to call anyone else - we've got you covered.",
+    description: "Our diverse professionals offer comprehensive solutions for roofing, remodeling, and more, ensuring all your needs are met efficiently.",
   },
   {
     icon: <UserIcon className="h-6 w-6" />,
     title: "World Class Leadman",
-    description: "Herlindo himself with 30+ years of experience in this industry will be your go-to leadman, he is dedicated to seeing your project through from start to finish, ensuring that every detail is taken care of. From the moment you request your quote to the final touches, Herlindo will be there every step of the way.",
+    description: "Led by Herlindo, with 30+ years in the industry, we guarantee meticulous attention to every project phase, from initial quote to final touches.",
   },
 ];
 
@@ -61,7 +61,7 @@ const About = ({ setSelectedPage }: Props) => {
         >
             <HText>MORE THAN JUST A SERVICE.</HText>
             <p className="my-5 text-md">
-                By providing you with world class guidance, professionals, and leadman we get you to your ultimate goal with ease. We provide true care into each and every customer.
+            By providing you with world class guidance, professionals, and leadman we get you to your ultimate goal with ease. We provide true care into each and every customer.
             </p>
         </motion.div>
 
