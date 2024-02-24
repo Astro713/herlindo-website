@@ -45,16 +45,17 @@ const Home = ({ setSelectedPage }: Props) => {
                         <img alt="home-page-text" src={HomePageText} />
                     </div>
                 </div>
-
-                <p className='mt-8 text-md'>
-                At Herlindo Painting & Roofing We specialize in complete interior and exterior remodeling services, as well as roofing.
-                </p>
-                <p className='mt-2'>
-                 We provide service to Houston and surrounding areas; both residential and commercial.
-                </p>
-                <p className='mt-2 text-md'>
-                  Call & Text: <a href="tel:+12816605963" style={{textDecoration: 'underline', color: 'blue'}}>281-660-5963</a>
-                </p>
+            <div className="mt-8 space-y-4">
+              <p className="text-md">
+                At <span className="font-bold">Herlindo Painting & Roofing</span>, we specialize in interior and exterior remodeling services, alongside expert roofing solutions.
+              </p>
+              <p className="text-md">
+                Serving Houston and the surrounding areas, our services cater to both residential and commercial projects, ensuring top-quality results regardless of the scale or scope.
+              </p>
+              <p className="text-md">
+                Ready to start your project? <span className="">Call or Text us at:</span> <a href="tel:+12816605963" className="underline text-blue-800">281-660-5963</a>
+              </p>
+            </div>
 
             </motion.div >
 
@@ -74,11 +75,11 @@ const Home = ({ setSelectedPage }: Props) => {
                 Join Now
               </ActionButton> */}
               <AnchorLink
-                className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+                className="font-bold text-primary-500 underline hover:text-secondary-500"
                 onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                 href={`#${SelectedPage.ContactUs}`}
               >
-                <p>Click Here For Quote Info</p>
+                <p>Click for a Quote</p>
               </AnchorLink>
             </motion.div>
         </div>
