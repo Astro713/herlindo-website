@@ -84,9 +84,8 @@ const About = ({ setSelectedPage }: Props) => {
           ))}
         </motion.div>
         {/* Graphics and Description */}
-        <div className="mt-16 md:mt-28 flex flex-col md:flex-row items-center justify-between gap-20 bg-center relative" style={{ backgroundImage: `url(${image7})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', width: '100%', height: '100vh' }}>
-
-          <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-3xl mx-auto md:mx-0">
+        <div className="mt-16 md:mt-20 flex flex-col md:flex-row items-center justify-between gap-20 bg-center relative" style={{ backgroundImage: `url(${image7})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100%', height: '75vh' }}>
+        <div className="bg-black bg-opacity-75 p-10 rounded-lg max-w-3xl mx-auto md:mx-0 md:bg-opacity-50">
             {/* Title */}
             <div className="text-center md:text-left">
               <motion.div
