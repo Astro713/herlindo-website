@@ -7,7 +7,8 @@ import SponsorRedBulll from "@/assets/SponsorRedBulll.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import { motion } from "framer-motion";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.jpg";
+import HomePageGraphic from "@/assets/HomePageGraphic.mp4";
+// import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.jpg";
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -89,11 +90,14 @@ const Home = ({ setSelectedPage }: Props) => {
           className="flex basis-3/5 justify-center md:z-10
               md:ml-40 md:mt-16 md:justify-items-end"
         >
-          <img
+          <video autoPlay loop muted className="mb-6 md:mb-0" >
+            <source src={HomePageGraphic} type="video/mp4" />
+          </video>
+          {/* <img
             className="my-5 mx-auto"
             alt="benefits-page-graphic"
             src={BenefitsPageGraphic}
-          />
+          /> */}
         </div>
     </motion.div>
 
