@@ -63,37 +63,35 @@ const ServicesOffered = ({ setSelectedPage }: Props) => {
         }}
         >
         <div className="mx-auto w-5/6 py-5">
-        <div className='text-primary-500 mb-6'>
-            <HText>Services Offered</HText>
-        </div>
-
-        <div className="flex flex-col md:flex-row-reverse justify-between items-start">
-            <div className="w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0 flex-shrink-0">
-            {/* Image on the right */}
-            <img src={image1} alt="Service Highlight" className="rounded shadow-lg max-w-full h-auto" />
+            <div className='text-primary-500 mb-6 '>
+                <HText>Services Offered</HText>
             </div>
 
-            <div className='w-full md:w-2/3 lg:w-3/4'>
-            {/* List on the left */}
-            <div className="text-black text-left space-y-4">
-                <div className="p-2 rounded shadow">Luxurious Bath & Kitchen Transformations</div>
-                <div className="p-2 rounded shadow">Expert Roofing, Siding, Door, and Window Installations</div>
-                <div className="p-2 rounded shadow">Custom Fencing, Deck Building, and Concrete Solutions</div>
-                <div className="p-2 rounded shadow">Elegant Ceramic, Wood, and Laminate Flooring</div>
-                <div className="p-2 rounded shadow">Precision Carpentry, Premium Cabinets, and Granite Countertops</div>
-                <div className="p-2 rounded shadow">Professional Sheetrock Repair and Painting Services</div>
-                <div className="p-2 rounded shadow">Thorough Pressure Washing and Landscaping</div>
-                <div className="p-2 rounded shadow">Tailored Home Additions and Extensions</div>
-                <div className="p-2 rounded shadow">Comprehensive Services for Every Home Need</div>
-            </div>
-            <p className="mt-10 text-black">
-                <strong>Note:</strong> We collaborate with insurance companies to streamline your project.
-            </p>
+            <div className="flex flex-col md:flex-row-reverse justify-between items-start gap-x-8">
+                <div className="w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0 flex-shrink-0">
+                    {/* Image on the right, ensure it has left margin on medium screens and up */}
+                    <img src={image1} alt="Service Highlight" className="rounded shadow-lg max-w-full h-auto" />
+                </div>
+
+                <div className='w-full md:w-2/3 lg:w-3/4 md:mr-8'>
+                    {/* List on the left, with right margin to separate from the image */}
+                    <div className="text-black text-left space-y-4">
+                        <div className="p-2 rounded shadow">Luxurious Bath & Kitchen Transformations</div>
+                        <div className="p-2 rounded shadow">Expert Roofing, Siding, Door, and Window Installations</div>
+                        <div className="p-2 rounded shadow">Custom Fencing, Deck Building, and Concrete Solutions</div>
+                        <div className="p-2 rounded shadow">Elegant Ceramic, Wood, and Laminate Flooring</div>
+                        <div className="p-2 rounded shadow">Precision Carpentry, Premium Cabinets, and Granite Countertops</div>
+                        <div className="p-2 rounded shadow">Professional Sheetrock Repair and Painting Services</div>
+                        <div className="p-2 rounded shadow">Thorough Pressure Washing and Landscaping</div>
+                        <div className="p-2 rounded shadow">Tailored Home Additions and Extensions</div>
+                        <div className="p-2 rounded shadow">Comprehensive Services for Every Home Need</div>
+                    </div>
+                    <p className="mt-10 text-black">
+                        <strong>Note:</strong> We collaborate with insurance companies to streamline your project.
+                    </p>
+                </div>
             </div>
         </div>
-        </div>
-
-
 
         </motion.div>
         {/* <div className='mt-10 h-[354px] w-full overflow-x-auto overflow-y-hidden'>
