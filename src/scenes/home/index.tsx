@@ -47,12 +47,9 @@ const Home = ({ setSelectedPage }: Props) => {
                     </div>
                 </div>
             <div className="mt-8 space-y-4">
-              <p className="text-md">
-                At <span className="font-bold">Herlindo Painting & Roofing</span>, we specialize in interior and exterior remodeling services, alongside expert roofing solutions.
-              </p>
-              <p className="text-md">
-                Serving Houston and the surrounding areas, our services cater to both residential and commercial projects, ensuring top-quality results regardless of the scale or scope.
-              </p>
+            <p className="text-md">
+              At <span className="font-bold">Herlindo Painting & Roofing</span>, we specialize in interior and exterior remodeling services, alongside expert roofing solutions. Serving Houston and the surrounding areas, our services cater to both residential and commercial projects, ensuring top-quality results regardless of the scale or scope.
+            </p>
               <p className="text-md">
                 Ready to start your project? <span className="">Call or Text us at:</span> <a href="tel:+12816605963" className="underline text-blue-800">281-660-5963</a>
               </p>

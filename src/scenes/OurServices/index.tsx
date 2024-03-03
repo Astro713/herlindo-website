@@ -66,7 +66,6 @@ const ServicesOffered = ({ setSelectedPage }: Props) => {
             <div className='text-primary-500 mb-6 '>
                 <HText>Services Offered</HText>
             </div>
-
             <div className="flex flex-col md:flex-row-reverse justify-between items-start gap-x-8">
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0 flex-shrink-0">
                     {/* Image on the right, ensure it has left margin on medium screens and up */}

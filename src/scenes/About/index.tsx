@@ -4,10 +4,10 @@ import {
     WrenchScrewdriverIcon,
     UserGroupIcon,
     UserIcon,
- } from "@heroicons/react/24/solid";
- import { motion } from "framer-motion";
+} from "@heroicons/react/24/solid";
+import { motion } from "framer-motion";
 import Aboutt from "./Aboutt";
-import HomePageGraphic from "@/assets/HomePageGraphic.mp4";
+import image7 from "@/assets/image7.jpeg";
 
 const about: Array<AbouttType> = [
   {
@@ -83,35 +83,28 @@ const About = ({ setSelectedPage }: Props) => {
             />
           ))}
         </motion.div>
-
         {/* Graphics and Description */}
-        <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
-          {/* Graphic */}
-          <video autoPlay loop muted className="mb-6 md:mb-0" >
-            <source src={HomePageGraphic} type="video/mp4" />
-          </video>
+        <div className="mt-16 md:mt-28 flex flex-col md:flex-row items-center justify-between gap-20 bg-center relative" style={{ backgroundImage: `url(${image7})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', width: '100%', height: '100vh' }}>
 
-          {/* Description */}
-          <div>
+          <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-3xl mx-auto md:mx-0">
             {/* Title */}
-            <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[1]">
-                <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ duration: 0.5 }}
-                  variants={{
-                    hidden: { opacity: 0, x: 50 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                  <HText>
-                    THOUSANDS OF HAPPY{" "}
-                    <span className="text-primary-500">CUSTOMERS</span>
-                  </HText>
-                </motion.div>
+            <div className="text-center md:text-left">
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, x: 50 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+              >
+              <div className="text-white">
+                <HText>
+                  THOUSANDS OF HAPPY CUSTOMERS
+                </HText>
               </div>
+              </motion.div>
             </div>
 
             {/* Description */}
@@ -125,13 +118,8 @@ const About = ({ setSelectedPage }: Props) => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="my-5">For over 30 years, Herlindo Painting & Roofing has been dedicated to serving Houston and its surrounding areas. We take pride in our ability to consistently provide exceptional service and have earned a reputation for keeping our customers happy with every project we undertake.</p>
-
-            </motion.div
-
-            >
-
-            {/* Join button(optional) */}
+              <p className="my-5 text-white">For over 30 years, Herlindo Painting & Roofing has been dedicated to serving Houston and its surrounding areas. We take pride in our ability to consistently provide exceptional service and have earned a reputation for keeping our customers happy with every project we undertake.</p>
+            </motion.div>
           </div>
         </div>
     </motion.div>
